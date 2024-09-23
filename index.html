@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Countdown Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <input type="number" id="hours" placeholder="Часы" min="0" max="23" value="0">
+        <input type="number" id="minutes" placeholder="Минуты" min="0" max="59" value="0">
+        <input type="number" id="seconds" placeholder="Секунды" min="0" max="59" value="0">
+    </div>
+    <div id="countdown_display">00 : 00 : 00</div>
+    <div>
+        <button id="start_countdown">Start</button>
+        <button id="pause_countdown">Pause</button>
+        <button id="reset_countdown">Reset</button>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
